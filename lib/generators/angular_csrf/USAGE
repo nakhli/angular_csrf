@@ -1,0 +1,9 @@
+Description:
+    Patches the application controllers in order to emit the CSRF cookie
+    and set the HTTP header used by AngularJS to handle CSRF protection.
+
+Example:
+    rails generate angular_csrf
+
+    This will create:
+        initializers/angular_csrf.rb
