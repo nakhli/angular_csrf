@@ -37,3 +37,9 @@ AngularJS [deals with CSRF protection](https://docs.angularjs.org/api/ng/service
 
 angular_csrf makes the Rails application or API (1)set the CSRF token in the expected cookie and (2)read back the
 http header set by AngularJS. The angular_csrf rails initializer [extends the application controllers](https://github.com/Sinbadsoft/angular_csrf/blob/master/lib/angular_csrf.rb) to perform these tasks.
+
+## License
+
+Licensed under the [MIT License](http://opensource.org/licenses/MIT).
+
+Copyright Sinbadsoft.
