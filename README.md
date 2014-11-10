@@ -1,9 +1,11 @@
 angular_csrf                                                                                       
 =============
 
-Extends the CSRF protection in Rails to play nicely with AngularJS.
+Extends Rails CSRF protection to play nicely with AngularJS.
 
 [![Build Status](https://travis-ci.org/Sinbadsoft/angular_csrf.svg)](https://travis-ci.org/Sinbadsoft/angular_csrf)
+
+CSRF is an exploit that allows mailicious websites to do unauthorized actions on a website that trusts the user. The angular_csrf gem extends the CSRF protection in Rails to match the naming convention used in AngularJS for the HTTP header and cookie token names (see [Cookie-to-Header Token](http://en.wikipedia.org/wiki/Cross-site_request_forgery#Cookie-to-Header_Token) CSRF protection strategy for more details).  
 
 Once installed, angular_csrf "just works": No need to change or configure neither the AngularJS javascript code nor the Rails application.
 
@@ -35,8 +37,8 @@ AngularJS [deals with CSRF protection](https://docs.angularjs.org/api/ng/service
 * Reads the CSRF protection token form a cookie, by default `XSRF-TOKEN`
 * Sends back the CSRF token as a http header, by deafault: `X-XSRF-TOKEN`
 
-angular_csrf makes the Rails application or API (1)set the CSRF token in the expected cookie and (2)read back the
-http header set by AngularJS. The angular_csrf rails initializer [extends the application controllers](https://github.com/Sinbadsoft/angular_csrf/blob/master/lib/angular_csrf.rb) to perform these tasks.
+angular_csrf makes the Rails application or API set the expected cookie token and read validate the
+http header sent by AngularJS. angular_csrf installs a Rails initializer [that extends the application controllers](https://github.com/Sinbadsoft/angular_csrf/blob/master/lib/angular_csrf.rb) to perform these tasks.
 
 ## License
 
