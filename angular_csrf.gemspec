@@ -14,11 +14,11 @@ Gem::Specification.new do |s|
 
   s.files = Dir.glob('{bin,lib}/**/*') + %w(Rakefile README.md)
   s.test_files = Dir.glob('spec/**/*')
-  s.homepage = 'http://github.com/sinbadsoft/angular_csrf'
+  s.homepage = 'https://github.com/sinbadsoft/angular_csrf'
   s.rdoc_options = ['--charset=UTF-8']
   s.require_paths = ['lib']
-  s.summary = 'Add support for AngularJS clients to Rails CSRF protection'
-  s.description = 'Adapt CSRF protection in Rails applications and webservices to handle AngularJS clients.'
+  s.summary = 'Extends Rails CSRF protection to play nicely with AngularJS'
+  s.description = 'Extends Rails CSRF protection to play nicely with AngularJS.'
 
   s.required_ruby_version = '>= 1.9.2'
 
