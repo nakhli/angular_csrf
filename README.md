@@ -4,6 +4,10 @@ angular_csrf
 Extends Rails CSRF protection to play nicely with AngularJS.
 
 [![Build Status](https://travis-ci.org/Sinbadsoft/angular_csrf.svg)](https://travis-ci.org/Sinbadsoft/angular_csrf)
+[![security](https://hakiri.io/github/Sinbadsoft/angular_csrf/master.svg)](https://hakiri.io/github/Sinbadsoft/angular_csrf/master)
+[![Code Climate](https://codeclimate.com/github/Sinbadsoft/angular_csrf/badges/gpa.svg)](https://codeclimate.com/github/Sinbadsoft/angular_csrf)
+[![Dependency Status](https://gemnasium.com/Sinbadsoft/angular_csrf.svg)](https://gemnasium.com/Sinbadsoft/angular_csrf)
+[![Gem Version](https://badge.fury.io/rb/angular_csrf.svg)](http://badge.fury.io/rb/angular_csrf)
 
 CSRF is an exploit that allows malicious websites to do unauthorized actions on a website that trusts the user.
 The angular_csrf gem extends the CSRF protection in Rails to match the naming convention used in AngularJS for the HTTP
