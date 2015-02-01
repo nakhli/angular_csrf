@@ -13,7 +13,7 @@ module AngularCsrf
 
       define_method :verified_request_with_angular_header? do
         verified_request_without_angular_header? ||
-          form_authenticity_token == request.headers[ANGULAR_CSRF_HEADER_NAME]
+          valid_authenticity_token?(session, request.headers[ANGULAR_CSRF_HEADER_NAME])
       end
       alias_method_chain :verified_request?, :angular_header
     end
