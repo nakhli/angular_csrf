@@ -1,3 +1,8 @@
+# 0.1.4
+tag v0.1.4
+
+Update dependencies.
+
 # 0.1.2
 tag v0.1.2
 
