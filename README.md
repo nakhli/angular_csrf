@@ -3,10 +3,10 @@ angular_csrf
 
 Extends Rails CSRF protection to play nicely with AngularJS.
 
-[![Build Status](https://travis-ci.org/nakhli/angular_csrf.svg)](https://travis-ci.org/Sinbadsoft/angular_csrf)
-[![security](https://hakiri.io/github/nakhli/angular_csrf/master.svg)](https://hakiri.io/github/Sinbadsoft/angular_csrf/master)
-[![Code Climate](https://codeclimate.com/github/nakhli/angular_csrf/badges/gpa.svg)](https://codeclimate.com/github/Sinbadsoft/angular_csrf)
-[![Dependency Status](https://gemnasium.com/nakhli/angular_csrf.svg)](https://gemnasium.com/Sinbadsoft/angular_csrf)
+[![Build Status](https://travis-ci.org/nakhli/angular_csrf.svg)](https://travis-ci.org/nakhli/angular_csrf)
+[![security](https://hakiri.io/github/nakhli/angular_csrf/master.svg)](https://hakiri.io/github/nakhli/angular_csrf/master)
+[![Code Climate](https://codeclimate.com/github/nakhli/angular_csrf/badges/gpa.svg)](https://codeclimate.com/github/nakhli/angular_csrf)
+[![Dependency Status](https://gemnasium.com/nakhli/angular_csrf.svg)](https://gemnasium.com/nakhli/angular_csrf)
 [![Gem Version](https://badge.fury.io/rb/angular_csrf.svg)](http://badge.fury.io/rb/angular_csrf)
 
 Once installed, angular_csrf **just works**: No need to change or configure neither the AngularJS javascript code
