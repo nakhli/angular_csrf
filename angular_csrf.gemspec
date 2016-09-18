@@ -10,11 +10,11 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   s.authors = ['Chaker Nakhli']
-  s.email = ['chaker.nakhli@sinbadsoft.com']
+  s.email = ['chaker.nakhli@gmail.com']
 
   s.files = Dir.glob('{bin,lib}/**/*') + %w(Rakefile README.md)
   s.test_files = Dir.glob('spec/**/*')
-  s.homepage = 'https://github.com/sinbadsoft/angular_csrf'
+  s.homepage = 'https://github.com/nakhli/angular_csrf'
   s.rdoc_options = ['--charset=UTF-8']
   s.require_paths = ['lib']
   s.summary = 'Extends Rails CSRF protection to play nicely with AngularJS'

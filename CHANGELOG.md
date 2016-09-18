@@ -1,3 +1,8 @@
+# 0.1.5
+tag v0.1.5
+
+Update dependencies and author info in gemspec.
+
 # 0.1.4
 tag v0.1.4
 
